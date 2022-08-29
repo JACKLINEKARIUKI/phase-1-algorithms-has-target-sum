@@ -14,21 +14,19 @@ return false;
   
 
 /* 
-  Write the Big O time complexity of your function here
+  O(n^2)
 */
 
 /* 
   for element of array, 
-  if array[i] + array[i + 1] === target, 
+  if array[i] + array[j+ 1] is equal to the target, 
   return true
 
 */
 
 /*
-  given an array of numbers and a target sum,
-  for every element in the array, we are going to return a new array with the element added to every element in the array.
-  then we will compare the sums of the element pairs every element of the new array with the target sum and return true if it is found.
-  
+  given an array of numbers and a target sum, return true if any two numbers
+  of the array add up to the target sum
 */
 
 // You can run `node index.js` to view these console logs
